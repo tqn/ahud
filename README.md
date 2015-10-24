@@ -1,3 +1,13 @@
+# NOTICE
+
+This is a Team Fortress 2 HUD that doesn't actually have anything to do with
+programming. It's for my own personal gaming.
+
+This HUD is forked. It does not belong to me. I put it here for easy version
+control and being able to easily update it, while keeping local changes. The
+close captioning commits are for a set of close captions that a kind gamer
+gave to me, and does not want to release them. (They're in a separate folder.)
+
 #ahud
 
 ahud is a simplistic HUD for Team Fortress 2 first started by [kyle](https://github.com/hikyle) and further developed by me. ahud draws inspiration from various HUDs, including, but not limited to, [rayshud](https://github.com/raysfire/rayshud), [yahud](https://github.com/whayay/yahud), and [omphud](https://github.com/omp/tf2hud).
@@ -34,7 +44,7 @@ Extract the `ahud-master` folder to `..\Steam\steamapps\common\Team Fortress 2\t
 ##Customization
 
 ####Custom colors
-The color of various HUD elements (health and ammo numbers, damage numbers, crosshair and flash damage, etc.) can be easily changed in `resource\clientscheme.res`. Edit anything under  `custom colors` using RGBA (e.g., `0 255 0 255` = Green and `255 255 0 255` = Yellow). 
+The color of various HUD elements (health and ammo numbers, damage numbers, crosshair and flash damage, etc.) can be easily changed in `resource\clientscheme.res`. Edit anything under  `custom colors` using RGBA (e.g., `0 255 0 255` = Green and `255 255 0 255` = Yellow).
 
 ####Scoreboards
 The default scoreboard is a 12v12 scoreboard. To switch between the default scoreboard and the 6v6 scoreboard, use the Scoreboard button in the main menu. Alternatively, you can enter `cl_hud_minmode 1` or `0` in console.
@@ -67,7 +77,7 @@ To use the Home Server button (located on the bottom right of the main menu) in 
 
 ##Support
 
-I have tested ahud on my Windows PC using a 16:9 monitor primarily on resolutions 1280x720 and above. ahud works on 16:10 and 4:3 and I'll be providing support for these aspect ratios as best as I can. Unfortunately, no Mac or Linux support (However, ahud is reported to work with Linux). 
+I have tested ahud on my Windows PC using a 16:9 monitor primarily on resolutions 1280x720 and above. ahud works on 16:10 and 4:3 and I'll be providing support for these aspect ratios as best as I can. Unfortunately, no Mac or Linux support (However, ahud is reported to work with Linux).
 
 Please post any bugs with ahud to the Issues page on this repository. There is also a [Steam group](http://steamcommunity.com/groups/ahud) you can join where you can ask general questions and get announcements on updates to ahud.
 
