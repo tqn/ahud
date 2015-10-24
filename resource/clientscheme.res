@@ -5913,5 +5913,10 @@ Scheme
 			"font" "resource/fonts/Entypo.otf"
 			"name"	"Entypo"
 		}
+		"12"
+		{
+			"font" "resource/fonts/CaptionIcons.ttf"
+			"name" "Caption Icons"
+		}
 	}
 }
