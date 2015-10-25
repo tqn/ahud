@@ -1,0 +1,2 @@
+.\materials\console\background_upward.vtf filter=lfs diff=lfs merge=lfs -text
+.\materials\console\background_upward_widescreen.vtf filter=lfs diff=lfs merge=lfs -text
