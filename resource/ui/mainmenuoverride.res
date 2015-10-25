@@ -177,39 +177,39 @@
 		
 		if_halloween_0
 		{
-			"image"		"../console/title_team_halloween2011"
+			"image"		"../console/background_upward"
 		}
 		if_halloween_1
 		{
-			"image"		"../console/title_team_halloween2012"
+			"image"		"../console/background_upward"
 		}
 		if_halloween_2
 		{
-			"image"		"../console/title_team_halloween2013"
+			"image"		"../console/background_upward"
 		}
 		if_halloween_3
 		{
-			"image"		"../console/title_team_halloween2014"
+			"image"		"../console/background_upward"
 		}
 		if_fullmoon
 		{
-			"image"		"../console/title_fullmoon"
+			"image"		"../console/background_upward"
 		}
 		if_christmas
 		{
-			"image"		"../console/background_xmas2011"
+			"image"		"../console/background_upward"
 		}
 		if_eotl_launch
 		{
-			"image"		"../console/title_eotl01"
+			"image"		"../console/background_upward"
 		}
 		if_operation
 		{
-			"image"		"../console/title_summer_operation_2015"
+			"image"		"../console/background_upward"
 		}
 		if_community_update
 		{
-			"image"		"../console/title_invasion"
+			"image"		"../console/background_upward"
 		}
 	}
 	
