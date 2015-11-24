@@ -485,6 +485,7 @@ Scheme
 	{
 		// UI buttons, custom font, (256x64)
 		"Buttons"		"materials/vgui/fonts/buttons_32.vbf"
+		"ButtonsSC"		"materials/vgui/fonts/buttons_sc.vbf"
 	}
 
 
@@ -1404,7 +1405,6 @@ Scheme
 			{
 				"name"		"Code-Pro-Bold"
 				"tall"		"9"
-				"weight"	"0"
 				"additive"	"0"
 				"antialias" "1"
 			}
@@ -1415,7 +1415,6 @@ Scheme
 			{
 				"name"		"Code-Pro-Bold"
 				"tall"		"12"
-				"weight"	"0"
 				"additive"	"0"
 				"antialias" "1"
 			}
@@ -1426,7 +1425,6 @@ Scheme
 			{
 				"name"		"Code-Pro-Bold"
 				"tall"		"15"
-				"weight"	"0"
 				"additive"	"0"
 				"antialias" "1"
 			}
@@ -1437,7 +1435,6 @@ Scheme
 			{
 				"name"		"Code-Pro-Bold"
 				"tall"		"16"
-				"weight"	"0"
 				"additive"	"0"
 				"antialias" "1"
 			}
@@ -1448,7 +1445,6 @@ Scheme
 			{
 				"name"		"Code-Pro-Bold"
 				"tall"		"17"
-				"weight"	"0"
 				"additive"	"0"
 				"antialias" "1"
 			}
@@ -1459,7 +1455,6 @@ Scheme
 			{
 				"name"		"Code-Pro-Bold"
 				"tall"		"18"
-				"weight"	"0"
 				"additive"	"0"
 				"antialias" "1"
 			}
@@ -1470,7 +1465,6 @@ Scheme
 			{
 				"name"		"Code-Pro-Bold"
 				"tall"		"18"
-				"weight"	"0"
 				"additive"	"0"
 				"antialias" "1"
 				"dropshadow"	"1"
@@ -1482,7 +1476,6 @@ Scheme
 			{
 				"name"		"Code-Pro-Bold"
 				"tall"		"20"
-				"weight"	"0"
 				"additive"	"0"
 				"antialias" "1"
 			}
@@ -1493,7 +1486,6 @@ Scheme
 			{
 				"name"		"Code-Pro-Bold"
 				"tall"		"20"
-				"weight"	"0"
 				"additive"	"0"
 				"antialias" "1"
 				"outline"	"1"
@@ -1505,7 +1497,6 @@ Scheme
 			{
 				"name"		"Code-Pro-Bold"
 				"tall"		"24"
-				"weight"	"0"
 				"additive"	"0"
 				"antialias" "1"
 			}
@@ -1516,7 +1507,6 @@ Scheme
 			{
 				"name"		"Code-Pro-Bold"
 				"tall"		"34"
-				"weight"	"0"
 				"additive"	"0"
 				"antialias" "1"
 			}
@@ -1527,7 +1517,6 @@ Scheme
 			{
 				"name"		"Code-Pro-Bold"
 				"tall"		"48"
-				"weight"	"0"
 				"additive"	"0"
 				"antialias" "1"
 			}
@@ -1538,7 +1527,6 @@ Scheme
 			{
 				"name"		"Code-Pro-Bold"
 				"tall"		"50"
-				"weight"	"0"
 				"additive"	"0"
 				"antialias" "1"
 			}
@@ -1549,7 +1537,6 @@ Scheme
 			{
 				"name"		"Code-Pro-Bold"
 				"tall"		"52"
-				"weight"	"0"
 				"additive"	"0"
 				"antialias" "1"
 			}
@@ -1560,7 +1547,6 @@ Scheme
 			{
 				"name"		"Code-Pro-Bold"
 				"tall"		"55"
-				"weight"	"0"
 				"additive"	"0"
 				"antialias" "1"
 			}
@@ -1571,7 +1557,6 @@ Scheme
 			{
 				"name"		"Code-Pro-LC"
 				"tall"		"8"
-				"weight"	"0"
 				"additive"	"0"
 				"antialias" "1"
 			}
@@ -1582,7 +1567,6 @@ Scheme
 			{
 				"name"		"Code-Pro-LC"
 				"tall"		"9"
-				"weight"	"0"
 				"additive"	"0"
 				"antialias" "1"
 			}
@@ -1593,7 +1577,6 @@ Scheme
 			{
 				"name"		"Code-Pro-LC"
 				"tall"		"10"
-				"weight"	"0"
 				"additive"	"0"
 				"antialias" "1"
 			}
@@ -1604,7 +1587,6 @@ Scheme
 			{
 				"name"		"Code-Pro-LC"
 				"tall"		"12"
-				"weight"	"0"
 				"additive"	"0"
 				"antialias" "1"
 			}
@@ -1615,7 +1597,6 @@ Scheme
 			{
 				"name"		"Code-Pro-LC"
 				"tall"		"12"
-				"weight"	"0"
 				"additive"	"0"
 				"antialias" "1"
 				"outline"	"1"
@@ -1627,7 +1608,6 @@ Scheme
 			{
 				"name"		"Code-Pro-LC"
 				"tall"		"14"
-				"weight"	"0"
 				"additive"	"0"
 				"antialias" "1"
 			}
@@ -1638,7 +1618,6 @@ Scheme
 			{
 				"name"		"Code-Pro-LC"
 				"tall"		"15"
-				"weight"	"0"
 				"additive"	"0"
 				"antialias" "1"
 			}
@@ -1649,7 +1628,6 @@ Scheme
 			{
 				"name"		"Code-Pro-LC"
 				"tall"		"16"
-				"weight"	"0"
 				"additive"	"0"
 				"antialias" "1"
 			}
@@ -1660,7 +1638,6 @@ Scheme
 			{
 				"name"		"Code-Pro-LC"
 				"tall"		"17"
-				"weight"	"0"
 				"additive"	"0"
 				"antialias" "1"
 			}
@@ -1671,7 +1648,6 @@ Scheme
 			{
 				"name"		"Code-Pro-LC"
 				"tall"		"18"
-				"weight"	"0"
 				"additive"	"0"
 				"antialias" "1"
 			}
@@ -1682,7 +1658,6 @@ Scheme
 			{
 				"name"		"Code-Pro-LC"
 				"tall"		"20"
-				"weight"	"0"
 				"additive"	"0"
 				"antialias" "1"
 			}
@@ -1693,7 +1668,6 @@ Scheme
 			{
 				"name"		"Code-Pro-LC"
 				"tall"		"20"
-				"weight"	"0"
 				"additive"	"0"
 				"antialias" "1"
 				"outline"	"1"
@@ -1705,7 +1679,6 @@ Scheme
 			{
 				"name"		"Code-Pro-LC"
 				"tall"		"22"
-				"weight"	"0"
 				"additive"	"0"
 				"antialias" "1"
 			}
@@ -1716,7 +1689,6 @@ Scheme
 			{
 				"name"		"Code-Pro-LC"
 				"tall"		"22"
-				"weight"	"0"
 				"additive"	"0"
 				"antialias" "1"
 				"outline"	"1"
@@ -1728,7 +1700,6 @@ Scheme
 			{
 				"name"		"Code-Pro-LC"
 				"tall"		"24"
-				"weight"	"0"
 				"additive"	"0"
 				"antialias" "1"
 			}
@@ -1739,7 +1710,6 @@ Scheme
 			{
 				"name"		"Code-Pro-LC"
 				"tall"		"24"
-				"weight"	"0"
 				"additive"	"0"
 				"antialias" "1"
 				"outline"	"1"
@@ -1751,7 +1721,6 @@ Scheme
 			{
 				"name"		"Code-Pro-LC"
 				"tall"		"26"
-				"weight"	"0"
 				"additive"	"0"
 				"antialias" "1"
 			}
@@ -1762,7 +1731,6 @@ Scheme
 			{
 				"name"		"Code-Pro-LC"
 				"tall"		"28"
-				"weight"	"0"
 				"additive"	"0"
 				"antialias" "1"
 			}
@@ -1773,7 +1741,6 @@ Scheme
 			{
 				"name"		"Code-Pro-LC"
 				"tall"		"30"
-				"weight"	"0"
 				"additive"	"0"
 				"antialias" "1"
 			}
@@ -1784,7 +1751,6 @@ Scheme
 			{
 				"name"		"Code-Pro-LC"
 				"tall"		"32"
-				"weight"	"0"
 				"additive"	"0"
 				"antialias" "1"
 			}
@@ -1795,7 +1761,6 @@ Scheme
 			{
 				"name"		"Code-Pro-LC"
 				"tall"		"34"
-				"weight"	"0"
 				"additive"	"0"
 				"antialias" "1"
 			}
@@ -1806,7 +1771,6 @@ Scheme
 			{
 				"name"		"Code-Pro-LC"
 				"tall"		"36"
-				"weight"	"0"
 				"additive"	"0"
 				"antialias" "1"
 			}
@@ -1817,7 +1781,6 @@ Scheme
 			{
 				"name"		"Code-Pro-LC"
 				"tall"		"38"
-				"weight"	"0"
 				"additive"	"0"
 				"antialias" "1"
 			}
@@ -1828,7 +1791,6 @@ Scheme
 			{
 				"name"		"Code-Pro-LC"
 				"tall"		"40"
-				"weight"	"0"
 				"additive"	"0"
 				"antialias" "1"
 			}
@@ -1839,7 +1801,6 @@ Scheme
 			{
 				"name"		"Code-Pro-LC"
 				"tall"		"42"
-				"weight"	"0"
 				"additive"	"0"
 				"antialias" "1"
 			}
@@ -1850,7 +1811,6 @@ Scheme
 			{
 				"name"		"Code-Pro-LC"
 				"tall"		"44"
-				"weight"	"0"
 				"additive"	"0"
 				"antialias" "1"
 			}
@@ -1861,7 +1821,6 @@ Scheme
 			{
 				"name"		"Code-Pro-LC"
 				"tall"		"46"
-				"weight"	"0"
 				"additive"	"0"
 				"antialias" "1"
 			}
@@ -1872,7 +1831,6 @@ Scheme
 			{
 				"name"		"Code-Pro-LC"
 				"tall"		"48"
-				"weight"	"0"
 				"additive"	"0"
 				"antialias" "1"
 			}
@@ -1883,7 +1841,6 @@ Scheme
 			{
 				"name"		"Code-Pro-LC"
 				"tall"		"50"
-				"weight"	"0"
 				"additive"	"0"
 				"antialias" "1"
 			}
@@ -1894,7 +1851,6 @@ Scheme
 			{
 				"name"		"Code-Pro-LC"
 				"tall"		"52"
-				"weight"	"0"
 				"additive"	"0"
 				"antialias" "1"
 			}
@@ -1905,7 +1861,6 @@ Scheme
 			{
 				"name"		"Code-Pro-LC"
 				"tall"		"55"
-				"weight"	"0"
 				"additive"	"0"
 				"antialias" "1"
 			}
@@ -2682,6 +2637,38 @@ Scheme
 				"name"		"Buttons"
 				"scalex"	"0.4"
 				"scaley"	"0.4"
+			}
+		}
+		GameUIButtonsSteamController
+		{
+			"1"
+			{
+				"bitmap"	"1"
+				"name"		"ButtonsSC"
+				"scalex"	"0.5"
+				"scalex_lodef"		"0.75"
+				"scaley"	"0.5"
+				"scaley_lodef"		"0.75"
+			}
+		}
+		GameUIButtonsSteamControllerSmall
+		{
+			"1"
+			{
+				"bitmap"	"1"
+				"name"		"ButtonsSC"
+				"scalex"	"0.25"
+				"scaley"	"0.25"
+			}
+		}
+		GameUIButtonsSteamControllerSmallest
+		{
+			"1"
+			{
+				"bitmap"	"1"
+				"name"		"ButtonsSC"
+				"scalex"	"0.15"
+				"scaley"	"0.15"
 			}
 		}
 		"GameUIButtonText"
@@ -4327,6 +4314,40 @@ Scheme
 			"offset" "0 0"
 			"color"	"ahudBlack"
 		}
+		
+		ahudMenuBorder
+		{
+			"inset" "0 0 0 0"
+			Left
+			{
+				"1"
+				{
+					"color" "ahudYellow"
+					"offset" "0 0"
+				}
+				"2"
+				{
+					"color" "ahudYellow"
+					"offset" "0 0"
+				}
+				"3"
+				{
+					"color" "ahudYellow"
+					"offset" "0 0"
+				}
+				"4"
+				{
+					"color" "ahudYellow"
+					"offset" "0 0"
+				}
+				"5"
+				{
+					"color" "ahudYellow"
+					"offset" "0 0"
+				}
+			}
+		}
+		
 		NoBorder
 		{
 			"inset" "0 0 0 0"
