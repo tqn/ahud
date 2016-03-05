@@ -156,7 +156,7 @@
 		"ControlName"		"CExButton"
 		"fieldName"		"NextButton"
 		"xpos"			"c195"
-		"ypos"			"350"
+		"ypos"			"360"
 		"zpos"			"1"
 		"wide"			"70"
 		"tall"			"20"
@@ -179,7 +179,7 @@
 		"ControlName"		"CExButton"
 		"fieldName"		"PrevButton"
 		"xpos"			"c-265"
-		"ypos"			"350"
+		"ypos"			"360"
 		"zpos"			"1"
 		"wide"			"70"
 		"tall"			"20"
@@ -304,7 +304,9 @@
 		"tall"			"50"
 		"visible"		"0"
 		"PaintBackgroundType"	"2"
-		"border"		"MainMenuBGBorder"
+		"paintbackground"	"1"
+		"border"		""
+		"bgcolor_override"	"ahudDarkerGrey"
 		
 		"TipLabel"
 		{

@@ -67,8 +67,8 @@
 		"enabled" "1"
 		"xpos"	"c92"
 		"ypos"	"c65"
-		"wide"	"300"
-		"tall"	"300"
+		"wide"	"150"
+		"tall"	"125"
 	}
 
 	HudObjectiveStatus
@@ -102,9 +102,9 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"xpos"			"c-75"
-		"ypos"			"c25"
-		"wide"			"500"
-		"tall"			"500"
+		"ypos"			"c93"
+		"wide"			"150"
+		"tall"			"40"
 		"MeterFG"		"TanLight"
 		"MeterBG"		"Gray"
 	}
@@ -218,8 +218,8 @@
 		"fieldName"				"CHudAccountPanel"
 		"xpos"					"c-50"
 		"ypos"					"c25"
-		"wide"					"116"
-		"tall"  				"180"
+		"wide"					"100"
+		"tall"  				"100"
 		"visible" 				"1"
 		"enabled" 				"1"
 		"PaintBackgroundType"	"2"
@@ -254,10 +254,10 @@
 		"fieldName" "DisguiseStatus"
 		"visible"	"1"
 		"enabled"	"1"
-		"xpos"		"82"
-		"ypos"		"c187"
-		"wide"		"500"
-		"tall"		"100"
+		"xpos"		"105"
+		"ypos"		"r38"
+		"wide"		"170"
+		"tall"		"38"
 	}
 
 	CMainTargetID
@@ -600,7 +600,7 @@
 		"fieldName" "HudCloseCaption"
 		"visible"	"1"
 		"enabled"	"1"
-		"xpos"		"c205"
+		"xpos"		"c215"
 		"ypos"		"247"
 		"wide"		"500"
 		"tall"		"136"
@@ -969,11 +969,11 @@
 		"fieldName" 	"HudMenuEngyBuild"
 		"visible" 		"1"
 		"enabled" 		"1"
-		"xpos"			"c-202"
-		"ypos"			"c-65"
+		"xpos"			"c-125"
+		"ypos"			"c-35"
 		"zpos"			"1"
-		"wide"			"425"
-		"tall"			"195"
+		"wide"			"250"
+		"tall"			"88"
 		"PaintBackgroundType"	"0"
 	}
 
@@ -982,11 +982,11 @@
 		"fieldName" 	"HudMenuEngyDestroy"
 		"visible" 		"1"
 		"enabled" 		"1"
-		"xpos"			"c-202"
-		"ypos"			"c-65"
+		"xpos"			"c-125"
+		"ypos"			"c-35"
 		"zpos"			"1"
-		"wide"			"425"
-		"tall"			"195"
+		"wide"			"250"
+		"tall"			"88"
 		"PaintBackgroundType"	"0"
 	}
 
@@ -995,11 +995,11 @@
 		"fieldName" 	"HudEurekaEffectTeleportMenu"
 		"visible" 		"1"
 		"enabled" 		"1"
-		"xpos"			"c-202"
-		"ypos"			"c-65"
+		"xpos"			"c-75"
+		"ypos"			"c-35"
 		"zpos"			"1"
-		"wide"			"425"
-		"tall"			"195"
+		"wide"			"150"
+		"tall"			"88"
 		"PaintBackgroundType"	"0"
 	}
 
@@ -1008,11 +1008,11 @@
 		"fieldName" 	"HudMenuSpyDisguise"
 		"visible" 		"1"
 		"enabled" 		"1"
-		"xpos"			"c-202"
-		"ypos"			"c-65"
+		"xpos"			"c-99"
+		"ypos"			"c-35"
 		"zpos"			"1"
-		"wide"			"450"
-		"tall"			"200"
+		"wide"			"198"
+		"tall"			"88"
 		"PaintBackgroundType"	"0"
 	}
 
@@ -1371,9 +1371,9 @@
 		"visible" 		"1"
 		"enabled" 		"1"
 		"xpos"			"c-235"
-		"ypos"			"c-65"
+		"ypos"			"c-35"
 		"wide"			"470"
-		"tall"			"200"
+		"tall"			"88"
 		"PaintBackgroundType"	"0"
 	}
 
@@ -1446,6 +1446,17 @@
 		"tall"	"f0"
 	}
 
+	MatchSummary
+	{
+		"fieldName" "MatchSummary"
+		"visible" "0"
+		"enabled" "1"
+		"xpos"	"0"
+		"ypos"	"0"
+		"wide"	"f0"
+		"tall"	"f0"
+	}
+
 	//----------------------------------------
 	// FOR TESTING PURPOSES
 	//----------------------------------------
@@ -1455,7 +1466,7 @@
 		"ControlName"		"ImagePanel"
 		"fieldName"		"VerticalLine"
 		"xpos"			"c0"
-		"ypos"			"c-540"
+		"ypos"			"0"
 		"zpos"			"-5"
 		"wide"			"1"
 		"tall"			"480"
@@ -1470,7 +1481,7 @@
 	{
 		"ControlName"		"ImagePanel"
 		"fieldName"		"VerticalLine"
-		"xpos"			"c-960"
+		"xpos"			"0"
 		"ypos"			"c0"
 		"zpos"			"-5"
 		"wide"			"f0"
@@ -1486,7 +1497,7 @@
 	{
 		"ControlName"		"ImagePanel"
 		"fieldName"		"VerticalLine"
-		"xpos"			"c-960"
+		"xpos"			"0"
 		"ypos"			"c-10"
 		"zpos"			"-5"
 		"wide"			"f0"
@@ -1502,7 +1513,7 @@
 	{
 		"ControlName"		"ImagePanel"
 		"fieldName"		"VerticalLine"
-		"xpos"			"c-960"
+		"xpos"			"0"
 		"ypos"			"c10"
 		"zpos"			"-5"
 		"wide"			"f0"
@@ -1518,8 +1529,8 @@
 	{
 		"ControlName"		"ImagePanel"
 		"fieldName"		"VerticalLine"
-		"xpos"			"c55"
-		"ypos"			"c-540"
+		"xpos"			"c100"
+		"ypos"			"0"
 		"zpos"			"-5"
 		"wide"			"1"
 		"tall"			"480"
@@ -1534,8 +1545,8 @@
 	{
 		"ControlName"		"ImagePanel"
 		"fieldName"		"VerticalLine"
-		"xpos"			"c-55"
-		"ypos"			"c-540"
+		"xpos"			"c-100"
+		"ypos"			"0"
 		"zpos"			"-5"
 		"wide"			"1"
 		"tall"			"480"

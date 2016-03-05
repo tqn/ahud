@@ -1,3 +1,4 @@
+
 Scheme
 {
 	Colors
@@ -47,7 +48,7 @@ Scheme
 		"ahudGreen"				"92 122 90 255"
 		"ahudDarkGreen"			"38 53 36 255"
 		"ahudYellow"			"169 123 53 255"
-		"ahudDarkYellow"		"97 70 27 255"
+		"ahudBrightYellow"		"218 165 32 255"
 
 		"ahudWhite"				"242 242 242 255"
 		"ahudDullWhite"			"132 132 132 255"
@@ -1410,6 +1411,16 @@ Scheme
 				"antialias" "1"
 			}
 		}
+		"Code10"
+		{
+			"1"
+			{
+				"name"		"Code-Pro-Bold"
+				"tall"		"10"
+				"additive"	"0"
+				"antialias" "1"
+			}
+		}
 		"Code12"
 		{
 			"1"
@@ -1420,12 +1431,12 @@ Scheme
 				"antialias" "1"
 			}
 		}
-		"Code15"
+		"Code14"
 		{
 			"1"
 			{
 				"name"		"Code-Pro-Bold"
-				"tall"		"15"
+				"tall"		"14"
 				"additive"	"0"
 				"antialias" "1"
 			}
@@ -1440,16 +1451,6 @@ Scheme
 				"antialias" "1"
 			}
 		}
-		"Code17"
-		{
-			"1"
-			{
-				"name"		"Code-Pro-Bold"
-				"tall"		"17"
-				"additive"	"0"
-				"antialias" "1"
-			}
-		}
 		"Code18"
 		{
 			"1"
@@ -1458,17 +1459,6 @@ Scheme
 				"tall"		"18"
 				"additive"	"0"
 				"antialias" "1"
-			}
-		}
-		"Code18Shadow"
-		{
-			"1"
-			{
-				"name"		"Code-Pro-Bold"
-				"tall"		"18"
-				"additive"	"0"
-				"antialias" "1"
-				"dropshadow"	"1"
 			}
 		}
 		"Code20"
@@ -1481,15 +1471,14 @@ Scheme
 				"antialias" "1"
 			}
 		}
-		"Code20Outline"
+		"Code22"
 		{
 			"1"
 			{
 				"name"		"Code-Pro-Bold"
-				"tall"		"20"
+				"tall"		"22"
 				"additive"	"0"
 				"antialias" "1"
-				"outline"	"1"
 			}
 		}
 		"Code24"
@@ -1592,17 +1581,6 @@ Scheme
 				"antialias" "1"
 			}
 		}
-		"NormalCode12Outline"
-		{
-			"1"
-			{
-				"name"		"Code-Pro-LC"
-				"tall"		"12"
-				"additive"	"0"
-				"antialias" "1"
-				"outline"	"1"
-			}
-		}
 		"NormalCode14"
 		{
 			"1"
@@ -1613,32 +1591,12 @@ Scheme
 				"antialias" "1"
 			}
 		}
-		"NormalCode15"
-		{
-			"1"
-			{
-				"name"		"Code-Pro-LC"
-				"tall"		"15"
-				"additive"	"0"
-				"antialias" "1"
-			}
-		}
 		"NormalCode16"
 		{
 			"1"
 			{
 				"name"		"Code-Pro-LC"
 				"tall"		"16"
-				"additive"	"0"
-				"antialias" "1"
-			}
-		}
-		"NormalCode17"
-		{
-			"1"
-			{
-				"name"		"Code-Pro-LC"
-				"tall"		"17"
 				"additive"	"0"
 				"antialias" "1"
 			}
@@ -2015,57 +1973,6 @@ Scheme
 				"antialias"	"1"
 			}
 		}
-		"DefaultVerySmallOutline"
-		{
-			"1"
-			{
-				"name"		"Verdana"
-				"tall"		"12"
-				"weight"	"0"
-				"outline"	"1"
-				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
-				"yres"	"480 599"
-			}
-			"2"
-			{
-				"name"		"Verdana"
-				"tall"		"12"
-				"weight"	"0"
-				"outline"	"1"
-				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
-				"yres"	"600 767"
-			}
-			"3"
-			{
-				"name"		"Verdana"
-				"tall"		"12"
-				"weight"	"0"
-				"outline"	"1"
-				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
-				"yres"	"768 1023"
-				"antialias"	"1"
-			}
-			"4"
-			{
-				"name"		"Verdana"
-				"tall"		"14"
-				"weight"	"0"
-				"outline"	"1"
-				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
-				"yres"	"1024 1199"
-				"antialias"	"1"
-			}
-			"5"
-			{
-				"name"		"Verdana"
-				"tall"		"16"
-				"weight"	"0"
-				"outline"	"1"
-				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
-				"yres"	"1200 6000"
-				"antialias"	"1"
-			}
-		}
 		DefaultLarge
 		{
 			"1"
@@ -2124,74 +2031,6 @@ Scheme
 				"tall"		"20"
 				"range" 		"0x0000 0x00FF"
 				"weight"		"800"
-			}
-		}
-		DefaultLargeShadow
-		{
-			"1"
-			{
-				"name"		"Verdana"
-				"tall"		"16"
-				"weight"	"900"
-				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
-				"yres"		"480 599"
-				"dropshadow"	"1"
-			}
-			"2"
-			{
-				"name"		"Verdana"
-				"tall"		"18"
-				"weight"	"900"
-				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
-				"yres"		"600 767"
-				"antialias"	"1"
-				"dropshadow"	"1"
-			}
-			"3"
-			{
-				"name"		"Verdana"
-				"tall"		"22"
-				"weight"	"900"
-				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
-				"yres"		"768 1023"
-				"antialias"	"1"
-				"dropshadow"	"1"
-			}
-			"4"
-			{
-				"name"		"Verdana"
-				"tall"		"28"
-				"weight"	"900"
-				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
-				"yres"		"1024 1199"
-				"antialias"	"1"
-				"dropshadow"	"1"
-			}
-			"5"
-			{
-				"name"		"Verdana"
-				"tall"		"30"
-				"weight"	"900"
-				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
-				"yres"	"1200 6000"
-				"antialias"	"1"
-				"dropshadow"	"1"
-			}
-			"6"
-			{
-				"name"		"Verdana"
-				"tall"		"20"
-				"range" 		"0x0000 0x00FF"
-				"weight"		"900"
-				"dropshadow"	"1"
-			}
-			"7"
-			{
-				"name"		"Arial"
-				"tall"		"20"
-				"range" 		"0x0000 0x00FF"
-				"weight"		"800"
-				"dropshadow"	"1"
 			}
 		}
 		CenterPrintText
@@ -3133,7 +2972,7 @@ Scheme
 			"1"
 			{
 				"name"		"Code-Pro-LC"
-				"tall"		"14"
+				"tall"		"10"
 				"weight"	"500"
 				"range"		"0x0000 0x007F"	//	Basic Latin
 				"antialias" "1"
@@ -3166,14 +3005,24 @@ Scheme
 				"additive"	"0"
 			}
 		}
+		"ScoreboardTeamCountNew"
+		{
+			"1"
+			{
+				"name"		"Code-Pro-LC"
+				"tall"		"14"
+				"weight"	"500"
+				"range"		"0x0000 0x007F"	//	Basic Latin
+				"antialias" "1"
+				"additive"	"0"
+			}
+		}
 		"ScoreboardTeamNameNew"
 		{
 			"1"
 			{
 				"name"		"Code-Pro-LC"
 				"tall"		"14"
-				"tall_hidef"	"24"
-				"tall_lodef"	"24"
 				"weight"	"500"
 				"range"		"0x0000 0x007F"	//	Basic Latin
 				"antialias" "1"
@@ -3258,6 +3107,29 @@ Scheme
 			}
 		}
 
+		"MatchSummaryTeamScores"
+		{
+			"1"
+			{
+				"name"		"Code-Pro-LC"
+				"tall"		"36"
+				"weight"	"500"
+				"range"		"0x0000 0x007F"	//	Basic Latin
+				"antialias" "1"
+				"additive"	"0"
+			}
+		}
+		"MatchSummaryStatsAndMedals"
+		{
+			"1"
+			{
+				"name"		"Code-Pro-LC"
+				"tall"		"14"
+				"weight"	"400"
+				"additive"	"0"
+				"antialias" "1"
+			}
+		}
 		"ControlPointTimer"
 		{
 			"1"
@@ -3681,8 +3553,8 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Verdana"
-				"tall"		"7"
+				"name"		"Code-Pro-LC"
+				"tall"		"8"
 				"weight"	"400"
 				"additive"	"0"
 				"antialias" "1"
@@ -4116,6 +3988,31 @@ Scheme
 			}
 		}
 
+		"TradeUp_Text"
+		{
+			"1"
+			{
+				"name"		"Verdana"
+				"tall"		"8"
+				"weight"	"400"
+				"antialias" "1"
+				"additive"	"0"
+			}
+		}
+
+		"TradeUp_Quote"
+		{
+			"1"
+			{
+				"name"		"Trebuchet MS"
+				"tall"		"9"
+				"weight"	"400"
+				"antialias" "1"
+				"additive"	"0"
+				"italic"	"1"
+			}
+		}
+
 		//
 		//////////////////// REPLAY FONTS //////////////////////////////
 		//
@@ -4341,7 +4238,7 @@ Scheme
 			"offset" "0 0"
 			"color"	"ahudBlack"
 		}
-		
+
 		ahudMenuBorder
 		{
 			"inset" "0 0 0 0"
@@ -4374,7 +4271,7 @@ Scheme
 				}
 			}
 		}
-		
+
 		NoBorder
 		{
 			"inset" "0 0 0 0"
@@ -4789,6 +4686,28 @@ Scheme
 			"backgroundtype"		"0"
 
 			"image"					"../hud/color_panel_blu"
+			"src_corner_height"		"23"				// pixels inside the image
+			"src_corner_width"		"23"
+			"draw_corner_width"		"0"				// screen size of the corners ( and sides ), proportional
+			"draw_corner_height" 	"0"
+		}
+		TFFatLineBorderBlueBGOpaque
+		{
+			"bordertype"			"scalable_image"
+			"backgroundtype"		"2"
+
+			"image"					"../hud/color_panel_blu_opaque"
+			"src_corner_height"		"23"				// pixels inside the image
+			"src_corner_width"		"23"
+			"draw_corner_width"		"0"				// screen size of the corners ( and sides ), proportional
+			"draw_corner_height" 	"0"
+		}
+		TFFatLineBorderClearBG
+		{
+			"bordertype"			"scalable_image"
+			"backgroundtype"		"2"
+
+			"image"					"../hud/color_panel_clear"
 			"src_corner_height"		"23"				// pixels inside the image
 			"src_corner_width"		"23"
 			"draw_corner_width"		"0"				// screen size of the corners ( and sides ), proportional
