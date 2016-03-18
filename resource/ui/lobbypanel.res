@@ -1432,22 +1432,22 @@
 				"labelText"		"?"
 			}
 
-		"PartyHasLeaverGroupBox"
+		"PartyHasLowPriorityGroupBox"
 		{
 			"ControlName"	"EditablePanel"
-			"fieldName"		"PartyHasLeaverGroupBox"
+			"fieldName"		"PartyHasLowPriorityGroupBox"
 			"xpos"		"30"
 			"ypos"		"250"
 			"zpos"			"2"
 			"wide"		"340"
-			"tall"		"60"
+			"tall"		"100"
 			"visible"	"0"
 			"enabled"	"1"
 
-			"PartyHasLeaverImage"
+			"PartyLowPriorityImage"
 			{
 				"ControlName"	"ImagePanel"
-				"fieldName"		"PartyHasLeaverImage"
+				"fieldName"		"PartyLowPriorityImage"
 				"xpos"			"0"
 				"ypos"			"5"
 				"zpos"			"0"
@@ -1460,10 +1460,10 @@
 				"scaleImage"	"1"
 			}
 
-			"PartyHasLeaverLabel"
+			"PartyHasLowPriorityLabel"
 			{
 				"ControlName"		"CExLabel"
-				"fieldName"		"PartyHasLeaverLabel"
+				"fieldName"		"PartyHasLowPriorityLabel"
 				"font"			"HudFontSmall"
 				"labelText"		"#TF_Matchmaking_PartyPenalty"
 				"xpos"		"60"
@@ -1477,7 +1477,22 @@
 				"wrap"		"1"
 				"fgcolor_override"	"250 114 45 255"
 			}
-
+			"PartyLowPriorityPenaltyTimer"
+			{
+				"ControlName"		"CExLabel"
+				"fieldName"		"PartyLowPriorityPenaltyTimer"
+				"font"			"HudFontSmall"
+				"labelText"		"%penaltytimer%"
+				"xpos"		"60"
+				"ypos"		"50"
+				"zpos"			"3"
+				"wide"		"175"
+				"tall"		"30"
+				"textAlignment"	"west"
+				"visible"	"1"
+				"enabled"	"1"
+				"wrap"		"1"
+			}
 		}
 	}
 
@@ -1929,7 +1944,7 @@
 				"sound_depressed"	"UI/buttonclick.wav"
 				"sound_released"	"UI/buttonclickrelease.wav"
 				
-				"defaultFgColor_override" "ahudWhite"
+				"defaultFgColor_override" "ahudDullWhite"
 				"armedFgColor_override" "ahudWhite"
 				"depressedFgColor_override" "ahudWhite"
 			}
@@ -1959,7 +1974,7 @@
 				"sound_depressed"	"UI/buttonclick.wav"
 				"sound_released"	"UI/buttonclickrelease.wav"
 				
-				"defaultFgColor_override" "ahudWhite"
+				"defaultFgColor_override" "ahudDullWhite"
 				"armedFgColor_override" "ahudWhite"
 				"depressedFgColor_override" "ahudWhite"
 			}
@@ -2081,36 +2096,79 @@
 			"bgcolor_override"	"25 25 25 200"
 			"border"			"QuickplayBorder"
 
-			"Leaderboard6v6"
+			"Leaderboard"
 			{
 				"ControlName"	"CLadderLobbyLeaderboard"
-				"fieldName"		"Leaderboard6v6"
-				"xpos"			"-10"
+				"fieldName"		"Leaderboard"
+				"xpos"			"0"
 				"ypos"			"5"
 				"zpos"			"0"
-				"wide"			"320"
+				"wide"			"313"
 				"tall"			"275"
 				"visible"		"1"
 				"enabled"		"1"
-				"mouseinputenabled" "0"
+				"mouseinputenabled" "1"
 				"scaleImage"	"1"
 				"entry_step"	"23"
 			}
 
-			"Leaderboard9v9"
+			"FriendsLeaderboardButton"
 			{
-				"ControlName"	"CLadderLobbyLeaderboard"
-				"fieldName"		"Leaderboard9v9"
-				"xpos"			"-10"
-				"ypos"			"5"
-				"zpos"			"0"
-				"wide"			"320"
-				"tall"			"275"
+				"ControlName"	"CExButton"
+				"fieldName"		"FriendsLeaderboardButton"
+				"xpos"			"50"
+				"ypos"			"8"
+				"zpos"			"100"
+				"wide"			"105"
+				"tall"			"16"
+				"autoResize"	"0"
+				"pinCorner"		"0"
 				"visible"		"1"
 				"enabled"		"1"
-				"mouseinputenabled" "0"
-				"scaleImage"	"1"
-				"entry_step"	"23"
+				"tabPosition"	"0"
+				"labelText"		"Friends"
+				"font"			"HudFontSmallBold"
+				"textAlignment"	"center"
+				"dulltext"		"0"
+				"brighttext"	"0"
+				"Command"		"friends_leaderboard"
+				"button_activation_type"	"1"	// only on press
+				"sound_depressed"	"UI/buttonclick.wav"
+				"sound_released"	"UI/buttonclickrelease.wav"
+				
+				"defaultFgColor_override" "ahudDullWhite"
+				"armedFgColor_override" "ahudWhite"
+				"depressedFgColor_override" "ahudWhite"
+			}
+
+			"GlobalLeaderboardButton"
+			{
+				"ControlName"	"CExButton"
+				"fieldName"		"GlobalLeaderboardButton"
+				"xpos"			"160"
+				"ypos"			"8"
+				"zpos"			"100"
+				"wide"			"105"
+				"tall"			"16"
+				"autoResize"	"0"
+				"pinCorner"		"0"
+				"visible"		"1"
+				"enabled"		"1"
+				"tabPosition"	"0"
+				"labelText"		"Global"
+				"font"			"HudFontSmallBold"
+				"textAlignment"	"center"
+				"dulltext"		"0"
+				"brighttext"	"0"
+				"bgcolor_override"	"89 81 71 255"
+				"Command"		"global_leaderboard"
+				"button_activation_type"	"1"	// only on press
+				"sound_depressed"	"UI/buttonclick.wav"
+				"sound_released"	"UI/buttonclickrelease.wav"
+				
+				"defaultFgColor_override" "ahudDullWhite"
+				"armedFgColor_override" "ahudWhite"
+				"depressedFgColor_override" "ahudWhite"
 			}
 		}
 	}

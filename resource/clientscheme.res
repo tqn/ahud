@@ -2946,7 +2946,7 @@ Scheme
 			"1"
 			{
 				"name"		"Code-Pro-LC"
-				"tall"		"10"
+				"tall"		"8"
 				"tall_hidef"	"12"
 				"tall_lodef"	"14"
 				"weight"	"400"
@@ -3124,6 +3124,17 @@ Scheme
 			"1"
 			{
 				"name"		"Code-Pro-LC"
+				"tall"		"14"
+				"weight"	"400"
+				"additive"	"0"
+				"antialias" "1"
+			}
+		}
+		"CompMatchStartTeamNames"
+		{
+			"1"
+			{
+				"name"		"TF2 Secondary"
 				"tall"		"14"
 				"weight"	"400"
 				"additive"	"0"
@@ -4272,6 +4283,82 @@ Scheme
 			}
 		}
 
+		ahudDarkBlueTeamBorder
+		{
+			"inset" "0 0 0 0"
+			Bottom
+			{
+				"1"
+				{
+					"color" "ahudDarkBlue"
+					"offset" "0 0"
+				}
+				"2"
+				{
+					"color" "ahudDarkBlue"
+					"offset" "0 0"
+				}
+				"3"
+				{
+					"color" "ahudDarkBlue"
+					"offset" "0 0"
+				}
+				"4"
+				{
+					"color" "ahudDarkBlue"
+					"offset" "0 0"
+				}
+				"5"
+				{
+					"color" "ahudDarkBlue"
+					"offset" "0 0"
+				}
+				"6"
+				{
+					"color" "ahudDarkBlue"
+					"offset" "0 0"
+				}
+			}
+		}
+
+		ahudDarkRedTeamBorder
+		{
+			"inset" "0 0 0 0"
+			Bottom
+			{
+				"1"
+				{
+					"color" "ahudDarkRed"
+					"offset" "0 0"
+				}
+				"2"
+				{
+					"color" "ahudDarkRed"
+					"offset" "0 0"
+				}
+				"3"
+				{
+					"color" "ahudDarkRed"
+					"offset" "0 0"
+				}
+				"4"
+				{
+					"color" "ahudDarkRed"
+					"offset" "0 0"
+				}
+				"5"
+				{
+					"color" "ahudDarkRed"
+					"offset" "0 0"
+				}
+				"6"
+				{
+					"color" "ahudDarkRed"
+					"offset" "0 0"
+				}
+			}
+		}
+
 		NoBorder
 		{
 			"inset" "0 0 0 0"
@@ -4674,7 +4761,7 @@ Scheme
 			"bordertype"			"scalable_image"
 			"backgroundtype"		"0"
 
-			"image"					"../hud/color_panel_red"
+			"image"					"replay/thumbnails/bg_red"
 			"src_corner_height"		"23"				// pixels inside the image
 			"src_corner_width"		"23"
 			"draw_corner_width"		"0"				// screen size of the corners ( and sides ), proportional
@@ -4685,7 +4772,7 @@ Scheme
 			"bordertype"			"scalable_image"
 			"backgroundtype"		"0"
 
-			"image"					"../hud/color_panel_blu"
+			"image"					"replay/thumbnails/bg_blu"
 			"src_corner_height"		"23"				// pixels inside the image
 			"src_corner_width"		"23"
 			"draw_corner_width"		"0"				// screen size of the corners ( and sides ), proportional
@@ -6599,6 +6686,30 @@ Scheme
 			"backgroundtype"		"2"
 
 			"image"					"replay/panel_scalable_transparent"
+			"src_corner_height"		"23"			// pixels inside the image
+			"src_corner_width"		"23"
+			"draw_corner_width"		"7"				// screen size of the corners ( and sides ), proportional
+			"draw_corner_height" 	"7"
+		}
+
+		RedWithThinBorder
+		{
+			"bordertype"			"scalable_image"
+			"backgroundtype"		"2"
+
+			"image"					"../hud/panel_scalable_red"
+			"src_corner_height"		"23"			// pixels inside the image
+			"src_corner_width"		"23"
+			"draw_corner_width"		"7"				// screen size of the corners ( and sides ), proportional
+			"draw_corner_height" 	"7"
+		}
+
+		BlueWithThinBorder
+		{
+			"bordertype"			"scalable_image"
+			"backgroundtype"		"2"
+
+			"image"					"../hud/panel_scalable_blue"
 			"src_corner_height"		"23"			// pixels inside the image
 			"src_corner_width"		"23"
 			"draw_corner_width"		"7"				// screen size of the corners ( and sides ), proportional

@@ -327,9 +327,9 @@
 		"fieldName" "BuildingStatus_Engineer"
 		"visible"	"1"
 		"enabled"	"1"
-		"xpos"		"-15"
+		"xpos"		"r165"
 		"ypos"		"0"
-		"wide"		"640"
+		"wide"		"160"
 		"tall"		"480"
 
 		"PaintBackgroundType"	"2"
@@ -488,7 +488,7 @@
 		"visible" "1"
 		"enabled" "1"
 		"xpos"	 "r640"
-		"ypos"	 "12"
+		"ypos"	 "18"
 		"wide"	 "628"
 		"tall"	 "468"
 
@@ -1455,6 +1455,30 @@
 		"ypos"	"0"
 		"wide"	"f0"
 		"tall"	"f0"
+	}
+
+	HudMatchStatus
+	{
+		"fieldName"				"HudMatchStatus"
+		"visible"				"1"
+		"enabled"				"1"
+		"xpos"					"0"
+		"ypos"					"0"
+		"zpos"					"2"
+		"wide"					"f0"
+		"tall"					"f0"
+	}
+
+	HudTeamStatus
+	{
+		"fieldName"				"HudTeamStatus"
+		"visible"				"1"
+		"enabled"				"1"
+		"xpos"					"0"
+		"ypos"					"0"
+		"zpos"					"2"
+		"wide"					"f0"
+		"tall"					"f0"
 	}
 
 	//----------------------------------------
