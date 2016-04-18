@@ -1,21 +1,5 @@
 "Resource/UI/HudPlayerHealth.res"
 {	
-	"HealthCrossBorder"
-	{
-		"ControlName"	"CTFImagePanel"
-		"fieldName"		"HealthCrossBorder"
-		"xpos"			"5"
-		"ypos"			"11"
-		"zpos"			"3"
-		"wide"			"80"
-		"tall"			"80"
-		"visible"		"0"
-		"enabled"		"0"
-		"image"			"replay/thumbnails/health_border_red"
-		"teambg_2"		"replay/thumbnails/health_border_red"
-		"teambg_3"		"replay/thumbnails/health_border_blu"
-		"scaleImage"	"1"
-	}
 	// player health data
 	"HudPlayerHealth"
 	{
@@ -56,7 +40,7 @@
 		"tall"			"40"
 		"visible"		"0"
 		"enabled"		"0"
-		"image"			"replay/thumbnails/health_bg"
+		"image"			"../hud/health_bg"
 		"scaleImage"	"1"	
 	}	
 	"PlayerStatusHealthBonusImage"

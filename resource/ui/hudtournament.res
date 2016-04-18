@@ -345,7 +345,7 @@
 				"tall"			"15"
 				"autoResize"	"0"
 				"pinCorner"		"0"
-				"visible"		"1"
+				"visible"		"0"
 				"labelText"		"%chargeamount%"
 				"textAlignment"	"north"
 				"fgcolor"		"0 255 0 255"
@@ -774,7 +774,7 @@
 		}
 		if_competitive
 		{
-			"ypos"			"22"
+			"ypos"			"25"
 		}
 	}
 
@@ -853,7 +853,7 @@
 		}
 		if_competitive
 		{
-			"ypos"			"33"
+			"ypos"			"36"
 		}
 	}
 
@@ -1100,22 +1100,22 @@
 			"font"			"CompMatchStartTeamNames"
 			"labelText"		"%blueteamname%"
 			"textAlignment"		"center"
-			"xpos"			"48"
+			"xpos"			"50"
 			"ypos"			"13"
 			"zpos"			"20"
-			"wide"			"95"
+			"wide"			"90"
 			"tall"			"30"
 			"autoResize"		"0"
 			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
-			"centerwrap"	"1"
+			"centerwrap"	"0"
 		}
 		"BlueLeaderAvatar"
 		{
 			"ControlName"		"CAvatarImagePanel"
 			"fieldName"		"BlueLeaderAvatar"
-			"xpos"			"11"
+			"xpos"			"8"
 			"ypos"			"10"
 			"zpos"			"5"	
 			"wide"			"35"
@@ -1130,14 +1130,14 @@
 		{
 			"ControlName"	"EditablePanel"
 			"fieldName"		"BlueLeaderAvatarBG"
-			"xpos"			"9"
+			"xpos"			"6"
 			"ypos"			"8"
 			"zpos"			"4"
 			"wide"			"39"
 			"tall"			"39"
 			"visible"		"1"
-			"PaintBackgroundType"	"2"
-			"bgcolor_override"	"117 107 94 255"
+			"PaintBackgroundType"	"0"
+			"bgcolor_override"	"ahudDarkBlue"
 		}
 		"BluePlayerList"
 		{
@@ -1223,22 +1223,22 @@
 			"font"			"CompMatchStartTeamNames"
 			"labelText"		"%redteamname%"
 			"textAlignment"		"center"
-			"xpos"			"5"
+			"xpos"			"11"
 			"ypos"			"13"
 			"zpos"			"20"
-			"wide"			"95"
+			"wide"			"90"
 			"tall"			"30"
 			"autoResize"		"0"
 			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
-			"centerwrap"	"1"
+			"centerwrap"	"0"
 		}
 		"RedLeaderAvatar"
 		{
 			"ControlName"		"CAvatarImagePanel"
 			"fieldName"		"RedLeaderAvatar"
-			"xpos"			"102"
+			"xpos"			"106"
 			"ypos"			"10"
 			"zpos"			"5"
 			"wide"			"35"
@@ -1253,14 +1253,14 @@
 		{
 			"ControlName"	"EditablePanel"
 			"fieldName"		"RedLeaderAvatarBG"
-			"xpos"			"100"
+			"xpos"			"104"
 			"ypos"			"8"
 			"zpos"			"4"
 			"wide"			"39"
 			"tall"			"39"
 			"visible"		"1"
-			"PaintBackgroundType"	"2"
-			"bgcolor_override"	"117 107 94 255"
+			"PaintBackgroundType"	"0"
+			"bgcolor_override"	"ahudDarkRed"
 		}
 		"RedPlayerList"
 		{

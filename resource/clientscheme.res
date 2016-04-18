@@ -3134,7 +3134,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"TF2 Secondary"
+				"name"		"Code-Pro-LC"
 				"tall"		"14"
 				"weight"	"400"
 				"additive"	"0"
